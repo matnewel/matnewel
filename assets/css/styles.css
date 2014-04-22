@@ -99,7 +99,7 @@ mark {
 
 p,
 pre {
-  margin: 1em 0; }
+  margin: 30px 0; }
 
 code,
 kbd,
@@ -252,18 +252,19 @@ button,
 input,
 select,
 textarea {
-  color: #222; }
+  color: #333333; }
 
 body {
-  font-size: 1em;
-  line-height: 1.4; }
+  font-size: 16px;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif; }
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #f8f2c6;
   text-shadow: none; }
 
 ::selection {
-  background: #b3d4fc;
+  background: #f8f2c6;
   text-shadow: none; }
 
 hr {
@@ -390,14 +391,19 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 body {
-  font-family: "Open Sans", sans-serif;
   width: 80%;
-  margin: 0 auto;
+  max-width: 700px;
+  margin: 0 auto 100px;
   padding-top: 20px; }
 
-h1 {
+a {
+  color: #c43f48; }
+
+.page-title {
   text-align: center;
-  font-size: 38px; }
+  font-size: 38px;
+  margin-bottom: 30px;
+  line-height: 100%; }
 
 img.author {
   border: 3px solid #fff;
