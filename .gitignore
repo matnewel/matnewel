@@ -1,0 +1,7 @@
+.DS_Store
+.sass-cache
+
+# Ignore composer packages
+vendor/
+# Ignore cap deployment stuff
+config/
