@@ -1,0 +1,28 @@
+img { 
+	max-width: 98%;
+}
+
+ul {
+	list-style-type: square;
+}
+
+p{
+	text-align: center;
+}
+
+h2 {
+	border-bottom-style: solid;
+}
+
+.section {
+	margin-bottom: 30px;
+}
+
+.section p,
+.section ul {
+	margin-bottom: 0;
+}
+
+.section h2 {
+	margin-top: 0;
+}
