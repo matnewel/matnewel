@@ -411,3 +411,22 @@ img.author {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   display: block;
   margin: 0 auto 30px; }
+
+img {
+  max-width: 98%; }
+
+ul {
+  list-style-type: square; }
+
+p {
+  text-align: center; }
+
+h2 {
+  border-bottom-style: solid; }
+
+.section {
+  margin-bottom: 30px; }
+  .section p, .section ul {
+    margin-bottom: 0; }
+  .section h2 {
+    margin-top: 0; }
